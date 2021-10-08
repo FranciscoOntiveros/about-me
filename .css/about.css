@@ -1,0 +1,74 @@
+body {
+    background-color:burlywood;
+    color:darkblue;
+    font-family:'Times New Roman', Times, serif
+}
+
+p {
+    color:darkblue;
+    
+}
+
+.img-woodblock {
+    background-size: contain;
+    width:350px;
+    height:250px;
+    background-repeat:no-repeat;
+}
+
+.img-mark1 {
+    background-size: contain;
+    width:350px;
+    height:250px;
+    background-repeat:no-repeat;
+}
+
+.img-frontview {
+    background-size: contain;
+    width:350px;
+    height:250px;
+    background-repeat:no-repeat;
+}
+
+.img-sideview {
+    background-size: contain;
+    width:350px;
+    height:250px;
+    background-repeat:no-repeat;
+}
+
+.img-dualsticks {
+    background-size: contain;
+    width:350px;
+    height:250px;
+    background-repeat:no-repeat;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:hotpink
+}
+
+li a{
+    display: block;
+    color:indigo;
+    text-align: center;
+    padding: 15px 18px;
+}
+
+li a:hover {
+    background-color:ivory;
+}
+
+li {
+    float: left;
+    text-emphasis-color:black;
+    display:inline;
+    border: 5px black;
+    padding:5px;
+    margin: 5px green;
+    border-right: 2px darkblue;
+}

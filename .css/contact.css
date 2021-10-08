@@ -1,0 +1,96 @@
+body {
+    background-color:burlywood;
+    color:darkblue;
+    font-family:'Times New Roman', Times, serif
+}
+
+.email{
+    background-color: burlywood;
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+
+.contact-box {
+width:500px;
+background-color:darkslategray;
+box-shadow: 0 0 20px 0 #999;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+position: absolute;
+}
+
+.img-slack{
+    background-color: burlywood;
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+
+.img-discord{
+    background-color: burlywood;
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+
+form {
+    margin: 35px;
+}
+
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px slateblue;
+    border-radius: 14px;
+    outline: none;
+}
+
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+}
+
+.btn{
+    border-radius:20px;
+    color:tomato;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: grey;
+    font-size:12px;
+    border: none;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:hotpink
+}
+
+li a{
+    display: block;
+    color:indigo;
+    text-align: center;
+    padding: 15px 18px;
+}
+
+li a:hover {
+    background-color:ivory;
+}
+
+li {
+    float: left;
+    text-emphasis-color:black;
+    display:inline;
+    border: 5px black;
+    padding:5px;
+    margin: 5px green;
+    border-right: 2px darkblue;
+}
